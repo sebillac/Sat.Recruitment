@@ -1,13 +1,13 @@
 ﻿using System;
 using System.IO;
 
-namespace Sat.Recruitment.Api.Controllers
+namespace Sat.Recruitment.Api.Helpers
 {
-    public partial class UsersController
+    public class FileHelper
     {
-        private StreamReader ReadUsersFromFile()
+        public StreamReader ReadDataFromFile(string fileName)
         {
-            var path = Directory.GetCurrentDirectory() + "/Files/Users.txt";
+            string path = $"{ Directory.GetCurrentDirectory()}/Files/{fileName}.txt";
 
             FileStream fileStream = new FileStream(path, FileMode.Open);
 
