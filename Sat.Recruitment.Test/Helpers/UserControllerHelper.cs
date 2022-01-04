@@ -66,9 +66,9 @@ namespace Sat.Recruitment.Test.Helpers
         {
             List<User> list = new List<User>();
 
-            list.Add(UserMapper.StringToUser("1,Juan,Juan @marmol.com,+5491154762312,Peru 2464,Normal,1234"));
-            list.Add(UserMapper.StringToUser("2,Franco,Franco.Perez @gmail.com,+534645213542,Alvear y Colombres,Premium,112234"));
-            list.Add(UserMapper.StringToUser("3,Agustina,Agustina @gmail.com,+534645213542,Garay y Otra Calle, SuperUser,112234"));
+            list.Add(UserMapper.StringToUser("1,Juan,Juan@marmol.com,+5491154762312,Peru 2464,Normal,1234"));
+            list.Add(UserMapper.StringToUser("2,Franco,Franco.Perez@gmail.com,+534645213542,Alvear y Colombres,Premium,112234"));
+            list.Add(UserMapper.StringToUser("3,Agustina,Agustina@gmail.com,+534645213542,Garay y Otra Calle, SuperUser,112234"));
 
             return list;
         }
